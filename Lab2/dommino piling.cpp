@@ -4,9 +4,10 @@ using namespace std;
 int main()
 {
     int N,M,ans;
-    while(cin>>N>>M)
+    cin(cin>>N>>M)
+        if(M>=1 && N<+16
     {
-        ans=N*(M/2)+M%2*(N/2);
+        ans= (M*N)/2;
         cout<<ans<<endl;
 
     }
